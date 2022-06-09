@@ -17,7 +17,7 @@ const Task = db.define('Task', {
   },
 
   done: {
-    type: DataTypes.BOOLEAN,
+    type: DataTypes.STRING,
     required: true
   }
 })
